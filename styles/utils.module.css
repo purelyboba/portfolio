@@ -27,6 +27,7 @@
   
   .borderCircle {
     border-radius: 9999px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   }
   
   .colorInherit {
@@ -49,4 +50,16 @@
   
   .lightText {
     color: #666;
+  }
+
+  .socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
   }

@@ -27,6 +27,22 @@ export default function Home({ allPostsData }) {
           My favorite languages are Python and Java, but I love exploring the world of
           programming by learning new languages and frameworks.
         </p>
+        <ul className={utilStyles.socials}>
+          <li><a href="https://github.com/R1tzG" target="_blank">github</a></li>
+          <li><a href="https://twitter.com/ritvikgupta011" target="_blank">twitter</a></li>
+          <li><a href="https://www.linkedin.com/in/ritvikgupta11/" target="_blank">linkedin</a></li>
+        </ul>
+      </section>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}>Projects</h2>
+        <ul className={utilStyles.list}>
+          <li className={utilStyles.listItem}>
+            <Link href="/projects/millburnai">Millburn AI</Link>
+          </li>
+          <li className={utilStyles.listItem}>
+            <Link href="/projects/8405">Millburn FTC</Link>
+          </li>
+        </ul>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
