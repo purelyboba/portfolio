@@ -1,1 +1,1 @@
-Portfolio and Blog.
+https://ritvikg.netlify.app/
