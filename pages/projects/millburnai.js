@@ -5,9 +5,6 @@ import utilStyles from '../../styles/utils.module.css';
 export default function MillburnAI() {
     return (
         <Layout>
-            <Head>
-                <title>Ritvik Gupta</title>
-            </Head>
             <h1 className={utilStyles.headingXl}>Millburn AI</h1>
             <p className={utilStyles.lightText}>The junction of robotics and artificial intelligence.</p>
             <main>
