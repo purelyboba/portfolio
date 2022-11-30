@@ -49,6 +49,7 @@ export default function Home({ allPostsData }) {
             </li>
           ))}
         </ul>
+        <Link href="/blog">see more →</Link>
       </section>
     </Layout>
   );
