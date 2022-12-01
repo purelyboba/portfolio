@@ -1,5 +1,5 @@
 ---
-title: 'How To Manage Your Time While Studying'
+title: 'How to manage your time while studying'
 date: '2022-11-27'
 ---
 
