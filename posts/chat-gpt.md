@@ -1,5 +1,5 @@
 ---
-title: 'ChatGPT What it is, and why it's revolutionary'
+title: 'ChatGPT: What it is, and why it's revolutionary'
 date: '2022-12-7'
 ---
 
