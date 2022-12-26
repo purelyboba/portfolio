@@ -39,15 +39,27 @@ export default function Home({ allPostsData }) {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>{title}</Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
+          <li className={utilStyles.listItem} key={allPostsData[0].id}>
+            <Link href={`/posts/${allPostsData[0].id}`}>{allPostsData[0].title}</Link>
+            <br />
+            <small className={utilStyles.lightText}>
+              <Date dateString={allPostsData[0].date} />
+            </small>
+          </li>
+          <li className={utilStyles.listItem} key={allPostsData[1].id}>
+            <Link href={`/posts/${allPostsData[1].id}`}>{allPostsData[1].title}</Link>
+            <br />
+            <small className={utilStyles.lightText}>
+              <Date dateString={allPostsData[1].date} />
+            </small>
+          </li>
+          <li className={utilStyles.listItem} key={allPostsData[2].id}>
+            <Link href={`/posts/${allPostsData[2].id}`}>{allPostsData[2].title}</Link>
+            <br />
+            <small className={utilStyles.lightText}>
+              <Date dateString={allPostsData[2].date} />
+            </small>
+          </li>
         </ul>
         <Link href="/blog">see more →</Link>
       </section>

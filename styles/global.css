@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
-    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.6;
+  letter-spacing: 0.001em;
   font-size: 18px;
+  background: #121212;
+  color: #fff;
 }
 
 * {
@@ -13,12 +17,19 @@ body {
 }
 
 a {
-  color: #0070f3;
+  color: #00a6f3;
+  position: relative;
   text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+  background-color: #00a6f3;
+  color: #121212;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  border-radius: 0.1em;
 }
 
 img {
