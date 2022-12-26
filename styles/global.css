@@ -48,3 +48,16 @@ img {
 ::-webkit-scrollbar-thumb {
   background: #00a6f3b6;
 }
+
+main p a {
+  color: #00a6f3;
+  position: relative;
+  text-decoration: none;
+}
+
+main p a:hover {
+  color: #00a6f3;
+  background: #12121200;
+  padding: 0;
+  text-decoration: underline;
+}
