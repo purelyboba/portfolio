@@ -39,7 +39,7 @@ export default function Home({ allPostsData }) {
     <Layout>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingX1}>Blog</h2>
-        <input type="text" id="blogInput" className={utilStyles.searchBar} onkeyup="search()" placeholder="Search..." />
+        <input type="text" id="blogInput" className={utilStyles.searchBar} onKeyUp={() => search()} placeholder="Search..." />
         <ul className={utilStyles.list} id="blogList">
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
