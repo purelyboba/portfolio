@@ -32,6 +32,9 @@ export default function Home({ allPostsData }) {
             <Link href="/projects/millburnai">Millburn AI</Link>
           </li>
           <li className={utilStyles.listItem}>
+            <Link href="/projects/kiosks">School Security Kiosks</Link>
+          </li>
+          <li className={utilStyles.listItem}>
             <Link href="/projects/8405">Millburn FTC</Link>
           </li>
         </ul>

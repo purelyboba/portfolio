@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@pdftron/webviewer": "^8.11.0",
     "date-fns": "^2.29.3",
     "fs": "^0.0.1-security",
     "gray-matter": "^4.0.3",
