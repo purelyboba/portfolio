@@ -1,32 +1,13 @@
-import { useEffect, useRef } from 'react';
-
 import Layout from '../../components/regularLayout';
 import Head from 'next/head';
 import utilStyles from '../../styles/utils.module.css';
 
-export default function Kiosks() {
-    
-    const viewer = useRef(null);
-
-    useEffect(() => {
-        import('@pdftron/webviewer').then(() => {
-            WebViewer(
-                {
-                    path: '/pdflib',
-                    initialDoc: '/documents/superintendentUpdate.pdf',
-                },
-                viewer.current,
-            ).then((instance) => {
-                const { docViewer } = instance;
-            });
-        })
-    }, []);
-    
+export default function MillburnAI() {
     return (
         <Layout>
-            <h1 className={utilStyles.headingXl}>Security Kiosks</h1>
-            <p className={utilStyles.lightText}>Presented at the township board of education</p>
-            <div className="webviewer" ref={viewer} style={{height: "80vh"}}></div>
+            <h1 className={utilStyles.headingXl}>School Security Kiosks</h1>
+            <p className={utilStyles.lightText}>Superintendent update linked below</p>
+            <a href="https://4.files.edl.io/80f1/12/07/22/203049-3948b4a9-47c9-42a4-9be2-0627b3d91db1.pdf" target="_blank">Download PDF</a>
         </Layout>
     );
 }
