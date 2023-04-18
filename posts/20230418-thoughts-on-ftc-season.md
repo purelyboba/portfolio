@@ -14,5 +14,3 @@ After multiple league meets, the league championship came upon us. We were ready
 Needless to say, we got pretty unlucky at states. During qualification, our alliances were often underpowered, and many things went wrong. The experience serves as nothing less than a lesson, and a push to do even better next year. The next goal is a worlds qual, which I think we can get.
 
 Since it was our first year in the competition, a lot was new to us, and we had to learn along the way. Now that we have competed for a year, there's a lot more I know, which leads to changes and things that we can definitely do better. It was overall a great experience, and I hope to come back even stronger next year.
-
-![League tournament](leagues.JPG)
