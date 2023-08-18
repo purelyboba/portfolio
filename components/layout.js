@@ -3,7 +3,7 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
-import { AiOutlineGithub, AiFillYoutube, AiFillLinkedin, AiOutlineTwitter } from 'react-icons/ai'
+import { AiOutlineGithub, AiFillYoutube, AiFillLinkedin, AiOutlineTwitter } from 'react-icons/ai';
 
 const name = 'Ritvik';
 export const siteTitle = "Ritvik";
@@ -24,7 +24,6 @@ export default function Layout({ children, home }) {
                 <li><a href="https://www.youtube.com/channel/UC1yCGQaEkfsrulmjq4FT6JQ" target="_blank"><AiFillYoutube /></a></li>
                 <li><a href="https://twitter.com/_ritvikg" target="_blank"><AiOutlineTwitter /></a></li>
                 <li><a href="https://www.linkedin.com/in/ritvikgupta11/" target="_blank"><AiFillLinkedin /></a></li>
-                
               </ul>
             </div>
           </>
