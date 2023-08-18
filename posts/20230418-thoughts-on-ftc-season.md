@@ -11,6 +11,6 @@ As I mentioned earlier, we had one member from the 2020 Skystone season, who ser
 
 After multiple league meets, the league championship came upon us. We were ready to give it our all, and hopefully come away with a qualification for the state championship. We fought it out, and won all 6 of our qualification matches. It came time for the elimination matches. After a hard fought semi-final and final, we won the tournament! Being the winning alliance captain gave us a qualification for the state championship.
 
-Needless to say, we got pretty unlucky at states. During qualification, our alliances were often underpowered, and many things went wrong. The experience serves as nothing less than a lesson, and a push to do even better next year. The next goal is a worlds qual, which I think we can get.
+Needless to say, we got pretty unlucky at states. Things did not go our way. The experience serves as nothing less than a lesson, and a push to do even better next year. The next goal is a worlds qual, which I think we can get.
 
 Since it was our first year in the competition, a lot was new to us, and we had to learn along the way. Now that we have competed for a year, there's a lot more I know, which leads to changes and things that we can definitely do better. It was overall a great experience, and I hope to come back even stronger next year.

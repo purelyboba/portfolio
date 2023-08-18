@@ -3,6 +3,7 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
+import { AiOutlineGithub, AiFillYoutube, AiFillLinkedin } from 'react-icons/ai'
 
 const name = 'RitvikG';
 export const siteTitle = "RitvikG";
@@ -19,9 +20,9 @@ export default function Layout({ children, home }) {
             <div className={styles.nav}>
               <Link className={utilStyles.navTitle} href="/"><h1 className={utilStyles.heading2Xl}>{name}</h1></Link>
               <ul className={styles.socials}>
-                <li><a href="https://github.com/R1tzG" target="_blank">github</a></li>
-                <li><a href="https://twitter.com/_ritvikg" target="_blank">twitter</a></li>
-                <li><a href="https://www.linkedin.com/in/ritvikgupta11/" target="_blank">linkedin</a></li>
+                <li><a href="https://github.com/R1tzG" target="_blank"><AiOutlineGithub /></a></li>
+                <li><a href="https://www.youtube.com/channel/UC1yCGQaEkfsrulmjq4FT6JQ" target="_blank"><AiFillYoutube /></a></li>
+                <li><a href="https://www.linkedin.com/in/ritvikgupta11/" target="_blank"><AiFillLinkedin /></a></li>
               </ul>
             </div>
           </>

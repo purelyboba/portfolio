@@ -4,6 +4,8 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
+import { AiOutlineIdcard } from 'react-icons/ai'; 
+
 const name = 'RitvikG';
 export const siteTitle = "RitvikG";
 
