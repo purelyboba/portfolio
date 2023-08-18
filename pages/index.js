@@ -19,7 +19,7 @@ export default function Home({ allPostsData }) {
     <Layout home>
       <section className={utilStyles.headingMd}>
         <p>
-          Hi! I'm <strong>Ritvik</strong>, a student from New Jersey focusing on real-world robotics and machine learning applications. Apart from programming, I enjoy making music and watching motorsports.
+          Hi! I'm <strong>Ritvik</strong>, a student focusing on real-world robotics and machine learning applications. Apart from programming, I enjoy making music and watching motorsports.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
@@ -34,7 +34,7 @@ export default function Home({ allPostsData }) {
             </Link>
           </li>
           <li className={utilStyles.listItem}>
-            <Link href="/projects/8405">8405 First Tech Challenge</Link>
+            <Link href="/projects/ftc">First Tech Challenge</Link>
           </li>
         </ul>
       </section>
