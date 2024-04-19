@@ -1,1 +1,1 @@
-https://ritvikg.netlify.app/
+https://ritvikg.dev
