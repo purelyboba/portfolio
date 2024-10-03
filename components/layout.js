@@ -5,8 +5,8 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 import { AiOutlineGithub, AiFillYoutube, AiFillLinkedin, AiOutlineTwitter } from 'react-icons/ai';
 
-const name = 'Ritvik';
-export const siteTitle = "Ritvik";
+const name = 'ritvik';
+export const siteTitle = "ritvik";
 
 export default function Layout({ children, home }) {
   return (

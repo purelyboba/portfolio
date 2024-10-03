@@ -24,17 +24,34 @@ export default function Home({ allPostsData }) {
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Projects</h2>
-        <ul className={utilStyles.list}>
-          <li className={utilStyles.listItem}>
-            <Link href="/projects/millburnai">Millburn AI</Link>
+        <ul className={utilStyles.projects}>
+          <li className={utilStyles.projectsitem}>
+            <Link href="/projects/millburnrobotics">Millburn Robotics</Link>
           </li>
-          <li className={utilStyles.listItem}>
-            <Link legacyBehavior href="/projects/kiosks">
-              <a>School Security Kiosks</a>
+          <li className={utilStyles.projectsitem}>
+            <Link href="/projects/gsa">Garden State Alliance</Link>
+          </li>
+          <li className={utilStyles.projectsitem}>
+            <Link href="/projects/cellularinfill">Cellular Infill</Link>
+          </li>
+          <li className={utilStyles.projectsitem}>
+            <Link legacyBehavior href="/projects/boids">
+              <a>Guiding Boids</a>
             </Link>
           </li>
-          <li className={utilStyles.listItem}>
-            <Link href="/projects/ftc">First Tech Challenge</Link>
+          <li className={utilStyles.projectsitem}>
+            <Link href="/projects/branchly">Branchly</Link>
+          </li>
+          <li className={utilStyles.projectsitem}>
+            <Link href="/projects/spot">Spot Payload</Link>
+          </li>
+          <li className={utilStyles.projectsitem}>
+            <Link legacyBehavior href="/projects/kiosks">
+              <a>Kiosks</a>
+            </Link>
+          </li>
+          <li className={utilStyles.projectsitem}>
+            <Link href="/projects/signsensei">SignSensei</Link>
           </li>
         </ul>
       </section>
