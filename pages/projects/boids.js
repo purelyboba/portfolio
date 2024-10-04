@@ -10,7 +10,7 @@ export default function Boids() {
             <main>
                 <p>
                     During my time at the Wolfram High School Summer Research Program, I investigated how I could use vector fields to manipulate the behavior of simulated birds. 
-                    Staff pick on <a href="https://community.wolfram.com/groups/-/m/t/3211600" target="_blank">Wolfram Community</a> and summer program featured project.
+                    Staff pick on <a href="https://community.wolfram.com/groups/-/m/t/3211600" target="_blank">Wolfram Community</a> and <a href="https://education.wolfram.com/summer-research-high-school/" target="_blank">WSRP</a> featured project.
                 </p>
             </main>
         </Layout>
