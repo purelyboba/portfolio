@@ -56,7 +56,7 @@ export default function Home({ allPostsData }) {
         </ul>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}>Thoughts</h2>
         <ul className={utilStyles.list}>
           <li className={utilStyles.listItem} key={allPostsData[0].id}>
             <Link href={`/posts/${allPostsData[0].id}`}>{allPostsData[0].title}</Link>
@@ -80,7 +80,7 @@ export default function Home({ allPostsData }) {
             </small>
           </li>
         </ul>
-        <Link href="/blog">see more →</Link>
+        <Link href="/thoughts">see more →</Link>
       </section>
     </Layout>
   );
