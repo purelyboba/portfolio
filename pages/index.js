@@ -19,7 +19,10 @@ export default function Home({ allPostsData }) {
     <Layout home>
       <section className={utilStyles.headingMd}>
         <p>
-          Hi! I'm <strong>Ritvik</strong>, a student focusing on real-world robotics and machine learning applications. Apart from programming, I enjoy making music and watching motorsports.
+          Hi! I'm <strong>Ritvik</strong>, a student focused on real-world robotics and machine learning applications. 
+          <br />
+          <br /> 
+          DMs are open <a href="https://x.com/_ritvikg" target="_blank">@_ritvikg</a>.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
