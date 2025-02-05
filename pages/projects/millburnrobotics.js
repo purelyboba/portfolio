@@ -7,6 +7,7 @@ export default function MillburnAI() {
         <Layout>
             <h1 className={utilStyles.headingXl}>Millburn Robotics</h1>
             <p className={utilStyles.lightText}>4 years of high school competitive robotics</p>
+            <img  src="/images/robot.png" alt="24-25 Robot" width={500} />
             <main>
                 <p>
                     In my freshman year of High School, I joined the robotics program.
