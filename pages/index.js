@@ -19,7 +19,8 @@ export default function Home({ allPostsData }) {
     <Layout home>
       <section className={utilStyles.headingMd}>
         <p>
-          Hi! I'm <strong>Ritvik</strong>, a student at the University of Illinois Urbana-Champaign majoring in Computer Engineering. 
+          Hi I'm <strong>Ritvik</strong>!
+          I'm a student at the University of Illinois at Urbana-Champaign majoring in Computer Engineering.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
@@ -55,7 +56,7 @@ export default function Home({ allPostsData }) {
           </li>
         </ul>
       </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+      <section className={`${utilStyles.headingMd}`}>
         <h2 className={utilStyles.headingLg}>Thoughts</h2>
         <ul className={utilStyles.list}>
           <li className={utilStyles.listItem} key={allPostsData[0].id}>

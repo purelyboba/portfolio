@@ -15,7 +15,9 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/images/pfp.jpg" />
         <title>{siteTitle}</title>
       </Head>
-      <header>
+      
+      <div className={styles.container}>
+        <header>
           <>
             <div className={styles.nav}>
               <Link className={utilStyles.navTitle} href="/"><h1 className={utilStyles.heading2Xl}>{name}</h1></Link>
@@ -27,14 +29,16 @@ export default function Layout({ children, home }) {
               </ul>
             </div>
           </>
-      </header>
-      <div className={styles.container}>
-        <main>{children}</main>
+        </header>
+        <main className={styles.main}>{children}</main>
         {!home && (
           <div className={styles.backToHome}>
             <Link href="/thoughts">← Back to thoughts</Link>
           </div>
         )}
+        <div className={styles.copyright}>
+          © 2025 (Ritvik Gupta)
+        </div>
       </div>
     </>
   );
