@@ -27,6 +27,9 @@ export default function Home({ allPostsData }) {
         <h2 className={utilStyles.headingLg}>Projects</h2>
         <ul className={utilStyles.projects}>
           <li className={utilStyles.projectsitem}>
+            <Link href="/projects/iem">Illini Electric Motorsports</Link>
+          </li>
+          <li className={utilStyles.projectsitem}>
             <Link href="/projects/millburnrobotics">Millburn Robotics</Link>
           </li>
           <li className={utilStyles.projectsitem}>
