@@ -9,7 +9,7 @@ export default function Spot() {
             <p className={utilStyles.lightText}>Making industry robotics accessible to all</p>
             <main>
                 <p>
-                    Working with my high school and Boston Dynamics, I helped create a comprehensive guide to using the Spot robot dog. I also helped develop a modular payload system. The resource we created can be found <a href="https://purelyboba.github.io/spot-mhs" target="_blank">here</a>.
+                    Working with my high school and Boston Dynamics, I helped create a comprehensive guide to using the Spot robot dog. I also helped develop a modular payload system. The resource we created can be found <a href="https://ritvikg4.github.io/spot-mhs/" target="_blank">here</a>.
                 </p>
             </main>
         </Layout>
