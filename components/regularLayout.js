@@ -21,7 +21,7 @@ export default function Layout({ children, home }) {
             <div className={styles.nav}>
               <Link className={utilStyles.navTitle} href="/"><h1 className={utilStyles.heading2Xl}>{name}</h1></Link>
               <ul className={styles.socials}>
-                <li><a href="https://github.com/purelyboba" target="_blank"><AiOutlineGithub /></a></li>
+                <li><a href="https://github.com/ritvikg4" target="_blank"><AiOutlineGithub /></a></li>
                 <li><a href="https://www.youtube.com/channel/UC1yCGQaEkfsrulmjq4FT6JQ" target="_blank"><AiFillYoutube /></a></li>
                 <li><a href="https://twitter.com/_ritvikg" target="_blank"><AiOutlineTwitter /></a></li>
                 <li><a href="https://www.linkedin.com/in/ritvikgupta11/" target="_blank"><AiFillLinkedin /></a></li>
