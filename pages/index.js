@@ -20,7 +20,7 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <p>
           Hi I'm <strong>Ritvik</strong>!
-          I'm a student at the University of Illinois at Urbana-Champaign majoring in Computer Engineering.
+          I'm a student at the University of Illinois Urbana-Champaign majoring in Computer Engineering.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
